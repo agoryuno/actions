@@ -1,5 +1,7 @@
 FROM ubuntu:22.04
 
+RUN ls -l /
+
 COPY $GITHUB_WORKSPACE/build_github.sh /
 COPY $GITHUB_WORKSPACE/cv_page1_plain.svg /
 COPY $GITHUB_WORKSPACE/cv_page2_plain.svg /
